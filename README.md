@@ -14,7 +14,7 @@ Bring custom sprays back to TF2 Casual! This lightweight, automated client syncs
 
 **사용법**
 파이썬 파일을 그대로 받아서 실행 시키셔도 되고, 아니면 제 유튜브를 참고해서 받아가셔도 좋습니다.
-* [유튜브 사용 설명 영상 보러가기](https://youtu.be/TtRg5_EFkFI)
+* [유튜브 사용 설명 영상 보러가기](https://youtu.be/TtRg5_EFkFI?si=BkktGHE3S_FJGreE)
 
 **원리**
 원리는 간단합니다. 스프레이를 사용할 때에는 해시값을 가진 스프레이 파일이 `\temp` 폴더에 쌓입니다. 이걸 서버에 연결해서 서버 이용자들한테 뿌리면 이용자들끼리 스프레이를 볼 수 있지만 캐주얼 매치에서는 업로드 및 다운로드를 막아 스프레이를 뿌려도 `\temp` 폴더에 해시값의 파일만 생성될 뿐 업로드 되질 않습니다.
@@ -43,7 +43,7 @@ It is primarily designed for players in the Asian region where community servers
 
 **🚀 How to Use**
 You can either download and run the Python script directly, or refer to my YouTube video for installation instructions and the executable file.
-* [Watch the Video Guide](https://youtu.be/TtRg5_EFkFI)
+* [Watch the Video Guide](https://youtu.be/TtRg5_EFkFI?si=BkktGHE3S_FJGreE)
 
 **⚙️ How It Works**
 The mechanism is simple. When you use a spray in-game, a spray file with a specific hash value is generated in your `\temp` folder. Normally, community servers distribute these files so players can see each other's sprays. However, Valve's official Casual Matches block this upload/download process, meaning your spray only creates a local file on your computer and is never shared.
